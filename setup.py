@@ -10,9 +10,9 @@ setup(
     url="https://github.com/9911sofia/Tarea3.git",
     packages=['T3'],
     install_requires=['pillow', 'tabulate', 'playsound', 'argparse'],
-    #package_data={  # Archivos extras a los paquetes
-    #      'T3': ['meca.jpg', 'Texto_ejemplo.txt', 'Hello.mp3'],
-    #},
+    package_data={  # Archivos extras a los paquetes
+          'archivos': ['meca.jpg', 'Texto_ejemplo.txt', 'Hello.mp3'],
+    },
     package_dir={'T3': 'T3'},  # especifica el directorio de los paquetes
     python_requires='>=3.7',  # Versión de Python compatible
     scripts=['bin/lector_texto', 'bin/presentador_de_audio', 'bin/Presentador_de_imágenes'], 
