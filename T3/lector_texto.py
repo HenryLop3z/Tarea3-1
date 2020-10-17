@@ -48,7 +48,7 @@ if __name__ == '__main__':
     if tiempo:
         print('El tiempo de ejecucion es: ', frecuencia_palabras(args.FILEPATH))
     else:
-        frecuencia_palabras(FILEPATH)
+        frecuencia_palabras(args.FILEPATH)
 
 
 # frecuencia_palabras("Texto_ejemplo.txt")
