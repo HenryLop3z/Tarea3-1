@@ -12,6 +12,7 @@ setuptools.setup(
     description="Tarea3RamirezLeeDonatoLopez",
     long_description=long_description,
     url="https://github.com/9911sofia/Tarea3.git",
+    install_requires=['Pillow', 'tabulate', 'playsound', 'argparse'],
     packages=setuptools.find_packages(),
     classifiers=[
         ...],
