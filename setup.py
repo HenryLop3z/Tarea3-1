@@ -19,7 +19,7 @@ setuptools.setup(
     },
     package_dir={'T3': 'T3'},  # especifica el directorio de los paquetes
     python_requires='>=3.7',  # Versión de Python compatible
-    scripts=['T3/lector_texto.py', 'T3/presentador_de_audio.py', 'T3/Presentador_de_imágenes.py'], 
+    scripts=['T3/lector_texto', 'T3/presentador_de_audio', 'T3/Presentador_de_imágenes'], 
     #packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
