@@ -17,7 +17,7 @@ setuptools.setup(
     package_data={  # Archivos extras a los paquetes
         'T3': ['meca.jpg', 'Texto_ejemplo.txt', 'Hello.mp3'],
     },
-    #package_dir={'T3': 'T3'},  # especifica el directorio de los paquetes
+    package_dir={'T3': 'T3'},  # especifica el directorio de los paquetes
     python_requires='>=3.7',  # Versión de Python compatible
     scripts=['bin/lector_texto', 'bin/presentador_de_audio', 'bin/Presentador_de_imágenes'], 
     #packages=setuptools.find_packages(),
