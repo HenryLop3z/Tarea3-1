@@ -1,5 +1,6 @@
 import setuptools
 
+
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
@@ -20,7 +21,7 @@ setuptools.setup(
     package_dir={'T3': 'T3'},  # especifica el directorio de los paquetes
     python_requires='>=3.3',  # Versión de Python compatible
     scripts=['T3/lector_texto.py', 'T3/presentador_de_audio.py', 'T3/Presentador_de_imágenes.py'] 
-    packages=setuptools.find_packages(),
+    packages=setuptools.find_packages(where='T3'),
     classifiers=[
         ...],
 )
