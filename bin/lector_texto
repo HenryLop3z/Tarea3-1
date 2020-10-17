@@ -1,0 +1,4 @@
+#!/usr/bin/env python3
+from T3.lector_texto import*
+
+frecuencia_palabras()
