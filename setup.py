@@ -1,11 +1,7 @@
-import setuptools
+from setuptools import setup
 
 
-with open("README.md", "r") as fh:
-    long_description = fh.read()
-
-
-setuptools.setup(
+setup(
     name="Tarea3",
     version="0.0.1",
     author="9911sofia, HenryLop3z, LuigiDonato, LazySloth26",
